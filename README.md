@@ -10,7 +10,7 @@ npm install
 
 2. Install Haml
 
-How to install haml is ```gem``` command point to me.
+How to install haml is ```gem``` command point to you.
 This is Ruby language's package manager, so you need to install ruby in your device.
 And use ```gem``` command to execute below.
 
@@ -48,3 +48,4 @@ docker-compose up -d
 # Windows PowerShell
 start "http://localhost:8080"
 ```
+
