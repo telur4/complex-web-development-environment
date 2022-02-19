@@ -21,7 +21,7 @@ gem install haml
 3. Install Dart sass
 
 ```shell
-# Windows
+# Windows Powershell
 choco install sass
 
 # Mac
@@ -45,4 +45,6 @@ please refer [here](https://www.docker.com/products/docker-desktop "Docker Deskt
 ```shell
 npm start
 docker-compose up -d
+# Windows PowerShell
+start "http://localhost:8080
 ```
