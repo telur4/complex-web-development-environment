@@ -46,5 +46,5 @@ please refer [here](https://www.docker.com/products/docker-desktop "Docker Deskt
 npm start
 docker-compose up -d
 # Windows PowerShell
-start "http://localhost:8080
+start "http://localhost:8080"
 ```
