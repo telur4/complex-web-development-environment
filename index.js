@@ -43,7 +43,7 @@ watcher.on("all", (event, path) => {
                 const filename = dirs[dirs.length-1].split(".")[0];
                 const stdout = execSync(`haml ${path} build\\${filename}.html`);
                 print(stdout, "haml");
-                const stdout2 = execSync(`npm run format build\\${filename}.html`);
+                const stdout2 = execSync(`npx prettier --write build\\${filename}.html`);
                 print(stdout2, "pritter");
                 break;
 
