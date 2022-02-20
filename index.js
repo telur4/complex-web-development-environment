@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fse = require("fs-extra");
 const chokidar = require("chokidar");
 const {execSync} = require("child_process");
 
@@ -7,7 +8,6 @@ const watcher = chokidar.watch("./", {
     ignored: [
         "./node_modules",
         "./build",
-        "./php",
         "./*.*"
     ],
     persistent: true
@@ -22,6 +22,8 @@ process.on('uncaughtException', err => {
 if (!fs.existsSync("./build")) {
     fs.mkdirSync("./build")
 }
+
+fse.copySync("./img","./build/img");
 
 // イベント実行
 watcher.on("all", (event, path) => {
