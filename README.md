@@ -29,7 +29,7 @@ brew install sass/sass/sass
 ```
 
 Using Windows PC and occurred a Problem, maybe you have to install chocolaty in your device.
-Open the Powershell with admin user, excute this command.
+Open the Powershell with admin uthority, excute this command.
 
 ```shell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
