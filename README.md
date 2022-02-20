@@ -2,7 +2,7 @@
 
 ## Set up
 
-1. Run "npm install" in PowerShell to install packages
+1. Run "npm install" in PowerShell to install packages needs this project.
 
 ```shell
 npm install
