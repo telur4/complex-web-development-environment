@@ -25,7 +25,7 @@ gem install haml
 choco install sass
 
 # Mac
-brew install sass
+brew install sass/sass/sass
 ```
 
 Using Windows PC and occurred a Problem, maybe you have to install chocolaty in your device.
